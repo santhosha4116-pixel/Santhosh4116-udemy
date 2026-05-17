@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+.toplayer{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+}
+.toplayer__one{
+    color: #a435f0;
+}
+.toplayer__two{
+    padding: 10px;
+    width: 70%;
+    border: black solid 2px;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.toplayer__two input{
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+
+.toplayer__two input:focus{
+    outline: none;
+}
+.toplayer__three{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+
+
+}
+.categories{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: solid black 1px;
+}
+.categories p{
+    padding: 10px;
+    background-color: #b049f5;
+    border: solid black 2px;
+    border-radius: 30px;   
+}
+.Image img{
+    width: 100%;
+}
+.Recommended{
+    padding: 10px;
+
+}
+.Coursescard-continer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.Course-card{
+    width: 250px;
+    padding: 10px;
+}
+.Course-card img{
+    width: 100%;
+}
+.topic{
+    padding: 10px;
+}
+.topic__continer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+.topic__continer p{
+    padding: 10px;
+    border: black solid 1px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.Popular{
+    padding: 10px;
+
+}
+.Popular-continer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.Popular-card{
+    width: 250px;
+    padding: 10px;
+}
+.Popular-card img{
+    width: 100%;
+}
+.footer{
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+.footer__one{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}
+.footer__one__s1 p, .footer__one_s2 p{
+    margin: 10px;
+}
+
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
